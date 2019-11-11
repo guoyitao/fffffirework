@@ -1,0 +1,25 @@
+{
+  "beans": [
+    {
+      "name": "bean1",
+      "className" : "com.tt.fffffirework.example.Bean1",
+      "isSingleton": true,
+    },
+    {
+      "name": "bean2",
+      "className" : "com.tt.fffffirework.example.Bean2",
+      "isSingleton": true,
+      "filds": [
+        {
+          "name": "bean1",
+          "className" : "com.tt.fffffirework.example.Bean1"
+        }
+      ]
+    },
+    {
+      "name": "aopTest",
+      "className" : "com.tt.fffffirework.example.AopTest",
+      "isSingleton": true
+    }
+  ]
+}
